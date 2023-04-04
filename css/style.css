@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --preto: black;
+    --braco: white;
+    --verde: rgb(101, 237, 164);
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow:  0 0 10px var(--preto);
+}
+.logo-menu{
+    display: flex;
+}
+.logo-menu > img{
+    width: 60px;
+}
+.menu{
+    align-items: center;
+    display: flex;
+    height:100%;
+}
+.menu > li{
+    padding: 10px;
+}
+.botoes-menu{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 600;
+}
+.branco{
+    border: 2px solid var(--preto);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+.preto{
+    background-color: var(--preto);
+    color: var(--braco);
+    border-radius: 15px;
+    padding: 5px;
+}
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+main > img{
+    width: 100% ;
+}
+.texto-c{
+    text-align: center;
+    padding: 80px;
+    background-color: var(--verde);
+    margin-top: 15px;
+}
+
+.bo{
+    
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid var(--preto);
+    margin-top: 20px;
+    
+}
+.texto-d{
+    
+    padding: 10px;
+    background-color: var(--verde);
+    margin-top: 15px;
+
+    display: flex;
+}
+.image{
+    width: 50%;
+}
+.t{
+    width: 50%;
+    background-color: var(--verde);
+    display: flex;
+    
+}
+.tex{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tex p {
+    margin-top: 20px;
+}
+.texto-e{
+    
+    padding: 10px;
+    background-color: var(--verde);
+    margin-top: 15px;
+
+    display: flex;
+}
+.image{
+    width: 50%;
+}
+
+
+.texte{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  ;
+}
+
+.tex p {
+    margin-top: 20px;
+}
+.a1{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.p1 > li{
+    margin-top: 20px;
+}
+.p2 > li{
+    margin: 20px;
+}
+.final{
+    text-align: center;
+}
+.uni{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.uni > li{
+    margin: 10px;
+    margin-top: 10px;
+}
+.fe{
+    display: flex;
+    justify-content: center;
+}
+.fe > li{
+    margin: 10px;
+    margin-top: 20px;
+}
+
